@@ -4,7 +4,7 @@
 #
 Name     : R-distr
 Version  : 2.8.0
-Release  : 9
+Release  : 10
 URL      : https://cran.r-project.org/src/contrib/distr_2.8.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/distr_2.8.0.tar.gz
 Summary  : Object Oriented Implementation of Distributions
@@ -16,6 +16,7 @@ Requires: R-startupmsg
 BuildRequires : R-sfsmisc
 BuildRequires : R-startupmsg
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 No detailed description available
@@ -35,13 +36,13 @@ lib components for the R-distr package.
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-export LANG=C
-export SOURCE_DATE_EPOCH=1552570844
+export LANG=C.UTF-8
+export SOURCE_DATE_EPOCH=1571818021
 
 %install
-export SOURCE_DATE_EPOCH=1552570844
+export SOURCE_DATE_EPOCH=1571818021
 rm -rf %{buildroot}
-export LANG=C
+export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
