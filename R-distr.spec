@@ -4,7 +4,7 @@
 #
 Name     : R-distr
 Version  : 2.8.0
-Release  : 20
+Release  : 21
 URL      : https://cran.r-project.org/src/contrib/distr_2.8.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/distr_2.8.0.tar.gz
 Summary  : Object Oriented Implementation of Distributions
