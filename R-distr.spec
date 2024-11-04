@@ -7,7 +7,7 @@
 #
 Name     : R-distr
 Version  : 2.9.5
-Release  : 42
+Release  : 43
 URL      : https://cran.r-project.org/src/contrib/distr_2.9.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/distr_2.9.5.tar.gz
 Summary  : Object Oriented Implementation of Distributions
